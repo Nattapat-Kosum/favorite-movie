@@ -1,0 +1,16 @@
+.movieCard .movieRating {
+    font-size: 1.25rem;
+}
+
+.movieCard .movieRating i {
+    margin-left: 2px;
+    color: #f5c518;
+    margin-right: 4px;
+}
+
+@media (max-height: 657px) {
+    .movieCard .movieRating {
+        font-size: 1.15rem;
+    }
+
+}

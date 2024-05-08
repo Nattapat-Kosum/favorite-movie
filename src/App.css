@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/89d11a443c316da80dcb8f5e1f63c86e?family=Bauhaus+93+V2);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #0d171f;
+  --second: #FDDE55;
+  --bgColor: #524C42;
+}
+
+h1, h2, h3, h4, p {
+  color: #ffffff;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  position: relative;
+  background: var(--bgColor);
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
